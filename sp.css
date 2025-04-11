@@ -21,7 +21,7 @@
     background-color: #99e4f7;
     height: 80px;
     margin: auto;
-    padding: 0 20px;
+    padding: 0 20px 0;
   }
 
   .header__inner{
@@ -131,7 +131,7 @@
     text-align: center;
     position: sticky; bottom: 0;
     width: 100%;
-    /* position: fixed;  */
+    position: fixed; 
   }
   
   .footer__logo{

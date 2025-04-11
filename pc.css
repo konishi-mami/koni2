@@ -124,7 +124,7 @@
     position: sticky; bottom: 0;
     width: 100%;
 
-    /* position: fixed;  */
+    position: fixed; 
   }
 
   .footer__logo{

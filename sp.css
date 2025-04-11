@@ -1,0 +1,149 @@
+@media (max-width: 768px){
+  html {
+    line-height: 1;
+  }
+  body{
+    margin: 0;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  ul{
+    list-style: none;
+  }
+
+  .header{
+    background-color: #99e4f7;
+    height: 80px;
+    margin: auto;
+    padding: 0 20px;
+  }
+
+  .header__inner{
+    background-color: hsl(83, 76%, 65%);
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .logo__box{
+    background-color: hwb(83 11% 72%);  }
+
+  .header__logo{
+    font-size: 16px;
+  }
+
+  .header__list{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-left: 20px;
+  }
+
+  .header__item{
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+  }
+
+  .mv{
+    height: 603px;
+    background-image: url(./img/fv1.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+  }
+
+  .future{
+    background-color: lab(80.34% 31.39 -23.16);
+  }
+
+  .future__inner{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 20px 100px 20px;
+  }
+
+  .future__title{
+    background-color: lab(82.84% 4.6 41.49);
+    font-size: 32px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 47px;
+  }
+
+  .future__box{
+    background-color: lab(64.65% 20.75 -50.35);
+  }
+
+  .img{
+    max-width: 100%;
+    height: auto;
+    background-position: center; 
+  }
+
+  .text-area{
+    background-color: lch(91.43% 58.73 127.48);
+  }
+
+  .text-area__title{
+    color: #555555;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 30px 0 0 0;
+  }
+
+  .text-area__desk{
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+
+  }
+
+  .cta-btn{
+    display: inline-block;
+    padding: 15px 57px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    background-color: #EFA358;
+  }
+
+  .footer{
+    background-color: #EFA358;
+    padding: 22px 0 19px;
+    text-align: center;
+    position: sticky; bottom: 0;
+    width: 100%;
+    /* position: fixed;  */
+  }
+  
+  .footer__logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+  }
+
+  .copylight{
+    color: #fff;
+    text-align: center;
+  }
+
+}

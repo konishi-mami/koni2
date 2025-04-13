@@ -85,6 +85,7 @@
 
   .future__box{
     background-color: lab(64.65% 20.75 -50.35);
+    text-align: center;
   }
 
   .img{
@@ -115,14 +116,18 @@
   }
 
   .cta-btn{
-    display: inline-block;
-    padding: 15px 57px;
+    display: flex;
+    /* padding: 15px 57px; */
+    width: 196px;
+    padding: 15px 0;
     color: #fff;
     font-size: 16px;
     font-weight: bold;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
     border-radius: 10px;
     background-color: #EFA358;
+    justify-content: center;
+    margin: 0 auto;
   }
 
   .footer{
